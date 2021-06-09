@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignmnet 43-48</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>First Task </h1>
+    <a href="#" onClick="alert('This is JS Assignemnt 43-48');">Click</a>
+    <h1>Second Task</h1>
+    <div class="images">
+        <div class="image1"><a href="JavaScript:void(0)" onClick="alert('Thanks for Purchasing this phone')"><img src="images/phone1.hawei.jpg"></a><p>Huawei</p></div>
+        <div class="image1"><a href="JavaScript:void(0)" onClick="alert('Thanks for Purchasing this phone')"><img src="images/phone1.hawei.jpg"></a><p>Huawei</p></div>
+        <div class="image1"><a href="JavaScript:void(0)" onClick="alert('Thanks for Purchasing this phone')"><img src="images/phone2.vivo.jpg"></a><p>Vivo</p></div>
+        <div class="image1"><a href="JavaScript:void(0)" onClick="alert('Thanks for Purchasing this phone')"><img src="images/phone2.vivo.jpg"></a><p>Vivo</p></div>
+    </div>
+    <h1>Third Task</h1>
+    <table>
+        
+        <tr><th>Index</th><th>Name</th><th>Class</th></tr>
+        <script>var names=["Imran","Kamran","Raheel","Nabeel","Ahmed","Fabiha","Owais","Azhaan","Bazil","Azmir"];</script>
+        <script>var grade=["7","5","8","2","3","1","4","9","6","10"];</script>
+        <script>function del(){
+           return names.splice(1,9)
+        
+        }</script>
+        
+        <tr> <td><script>for(i=0;i<names.length;i++){document.write("</br>",i)}</script></td><td><script>for(i=0;i<names.length;i++){document.write("</br>",names[i])}</script></td><td><script>for(i=0;i<names.length;i++){document.write("</br>",grade[i])}</script></td><td><br/><input type="button" value="Delete" onClick="del();"></button><br/><input type="button" value="Delete" onClick="alert('Hello world!');"></button><br/><input type="button" value="Delete" onClick="alert('Hello world!');"></button><br/><input type="button" value="Delete" onClick="alert('Hello world!');"></button><br/><input type="button" value="Delete" onClick="alert('Hello world!');"></button><br/><input type="button" value="Delete" onClick="alert('Hello world!');"></button><br/><input type="button" value="Delete" onClick="alert('Hello world!');"></button><br/><input type="button" value="Delete" onClick="alert('Hello world!');"></button><br/><input type="button" value="Delete" onClick="alert('Hello world!');"></button><br/><input type="button" value="Delete" onClick="alert('Hello world!');"></button></td></tr>
+        
+        <tr><td><script>var names1=del();for(i=0;i<names1.length;i++){document.write("</br>",i)}</script></td><td><script>for(i=0;i<names1.length;i++){document.write("<br/>",names1[i])}</script></td></tr>
+    
+           
+        
+    
+    </table>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
